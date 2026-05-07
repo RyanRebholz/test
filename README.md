@@ -42,7 +42,7 @@ bug's reach.
 
 ## Credits
 
-Hyunwoo Kim (imv4bel) and Kuan-Ting Chen (h3xrabbit): reported, tested,
+Hyunwoo Kim (imv4bel) and Kuan-Ting Chen reported, tested,
 authored the upstream fix.
 
 Steffen Klassert: IPsec maintainer, posted the fix to netdev/net.git.

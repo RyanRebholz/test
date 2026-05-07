@@ -40,6 +40,13 @@ path.
 *MSG_SPLICE_PAGES UDP support was added in 6.5, so 5.15 is below the
 bug's reach.
 
+## IPv6
+
+Same bug exists in `esp6_input` and is not covered by the v4 fix
+`f4c50a4034`. PoC in `ipv6/`: `ipv6/run.sh` and `ipv6/copyfail2v6.c`.
+Uses `::1` loopback and `ip -6 xfrm`. ESP packet padded to >= 40 bytes
+to clear the `xfrm6_input.c:124` size gate.
+
 ## Credits
 
 Hyunwoo Kim (imv4bel) and Kuan-Ting Chen reported, tested,

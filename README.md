@@ -37,8 +37,7 @@ path.
 | Fedora 43          | 6.19.14-200.fc43     | root             |
 | Ubuntu 26.04 LTS   | 7.0.0-15-generic     | root             |
 
-*MSG_SPLICE_PAGES UDP support was added in 6.5, so 5.15 is below the
-bug's reach.
+
 
 ## IPv6
 
